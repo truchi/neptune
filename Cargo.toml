@@ -1,0 +1,13 @@
+[package]
+name = "neptune"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.7"
+serde = { version = "1.0.214", features = ["derive"] }
+tokio = { version = "1.41.0", features = ["full"] }
+
+[dev-dependencies]
+rand = "0.8.5"
+reqwest = { version = "0.12.9", features = ["json"] }
